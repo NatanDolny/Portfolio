@@ -4689,13 +4689,13 @@ input, select, textarea {
 	}
 
 	.auto-resizable-iframe {
-		max-width: 560px;
+		max-width: 980px;
 		margin: 0px auto;
 	  }
 	  
 	  .auto-resizable-iframe > div {
 		position: relative;
-		padding-bottom: 75%;
+		padding-bottom: 70%;
 		height: 0px;
 	  }
 	  
