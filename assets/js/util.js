@@ -27,7 +27,7 @@
 					$this.text() +
 				'</a>'
 			);
-
+			
 		});
 
 		return b.join('');

@@ -10,7 +10,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			img[src$="fileWithLines.svg"] {
+			  fill: currentColor;
+			}
+		  </style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="colourSetter.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -27,10 +33,10 @@
 						<br>
 						<p>
 							Welcome to my portfolio showcase, featuring 6 of my central projects. I'm 
-							<a href="https://www.linkedin.com/in/natan-dolny/"> Natan</a> a games 
+							<a href="https://www.linkedin.com/in/natan-dolny/" target = "_blank"> Natan</a> a games 
 							programmer specialising in AI, procedural generation and immersion systems.
 							I've been making games since 16 and playing them for much longer. This year 
-							I graduated from <a href="https://www.uwe.ac.uk"> University of the West of 
+							I graduated from <a href="https://www.uwe.ac.uk" target = "_blank"> University of the West of 
 							England</a>, 
 							achieving a Second Class (Upper Division) in Games Technology. </p>
 							<br>
@@ -51,7 +57,9 @@
 							<li class="active"><a href="index.html">Introduction</a></li>
 							<li><a href="unity.html">Unity Projects</a></li>
 							<li><a href="unreal.html">Unreal Projects</a></li>
-							<li><a target = "_blank" rel="noreferrer noopener" href= "CV_Natan_Dolny.pdf" >Resume</a></li>
+							<li><a target = "_blank" rel="noreferrer noopener" href= "CV_Natan_Dolny.pdf" >Resume 
+								<img src="fileWithLines.svg" alt="fileLines" style="height:1.5em; width:auto; vertical-align: middle;"/>
+							</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/natan-dolny/" target = "_blank" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
@@ -146,11 +154,11 @@
 					<footer id="footer">
 						<section class="split contact">
 							<section>
-								<h3>Email</h3>
+								<h3>Email <i class="icon solid fa-envelope"><span class="label">mail</span></i></h3>
 								<p><a> natandolny@outlook.com</a></p>
 							</section>
 							<section>
-								<h3>Address</h3>
+								<h3>Address <i class="icon solid fa-map"><span class="label">mail</span></i></h3>
 								<p>
 									London<br />
 									United Kingdom</p>
@@ -158,13 +166,14 @@
 						</section>
 						<section class="split contact">
 							<section>
-								<h3>Phone</h3>
-								<p><a>(+44) 0 741 315 6793</a></p>
+								<h3>Phone <i class="icon solid fa-phone"><span class="label">phone</span></i></h3>
+								<p>(+44) 0 741 315 6793</p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/natan-dolny/" target = "_blank" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://www.linkedin.com/in/natan-dolny/" target = "_blank" class="icon solid fa-phone"><span class="label">phone</span></a></li>
 									<li><a href="https://github.com/NatanDolny" target = "_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
